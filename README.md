@@ -4,7 +4,7 @@ Retail Customer Purchase Analytics
 # Product Sales Dataset 📊
 
 <p align="center">
- <img width="266" height="205" alt="image_1e16842e_edited" src="https://inlabel.pt/wp-content/uploads/2022/08/Factors-affecting-Sales-of-a-Product-3-1024x767.jpep"
+ <img width="266" height="205" alt="Factors-affecting-Sales-of-a-Product-3-1024x767" src="https://inlabel.pt/wp-content/uploads/2022/08/Factors-affecting-Sales-of-a-Product-3-1024x767.jpep"
 
 <h1 align="center">Electronics Retail Sales Dataset</h1>
 
