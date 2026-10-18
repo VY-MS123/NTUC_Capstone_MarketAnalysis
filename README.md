@@ -37,7 +37,7 @@ This study aims to identify purchasing patterns, customer segments, product perf
 * **Key Entities:** Products, Sales Team, Regional Markets, Revenue Metrics
 
   Link to Jupyter Notebook in Google Colab:
-  https://colab.research.google.com/drive/1zdPR2ig9qFp6Q1gPrZvky3Ac7UITW3Mv?usp=sharing
+  https://colab.research.google.com/drive/10dyunFAxkvDDQb2xrd1I1uPhSzSBA0ZA?usp=sharing
    
 ## 🗂️ Data Dictionary
 
