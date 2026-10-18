@@ -9,9 +9,9 @@ Retail Customer Purchase Analytics
 <h1 align="center">Product Sales Analysis
 
 #
-Understanding customer purchasing behaviour is very important for a company to continue success. As such, using customer data to make effective decisions on marketing, customer retention, inventory management, and sales growth. Therefore, this analysis aims to identify customer buying patterns, customer segments, product performance, and sales trends to help the company improve business performance and increase revenue. The data includes granular details on order parameters, product categories, geographic regions, and promotional discounts.
+Understanding customer purchasing behaviour is essential for driving sustainable business growth. By analysing customer transaction data, organisations can make data-driven decisions to improve marketing effectiveness, customer retention, inventory management, and sales performance.
 
-It serves as an excellent resource for exploratory data analysis (EDA), sales performance forecasting, regional market analysis, and missing data imputation practice.
+This study aims to identify purchasing patterns, customer segments, product performance, and sales trends to support business optimisation and revenue growth. The dataset contains detailed information on orders, product categories, geographic regions, and promotional discounts, making it suitable for exploratory data analysis (EDA), sales forecasting, regional market analysis, and data quality improvement.
 
 # Objective
 1	Regional Sales Performance & Geographic Market Analysis
