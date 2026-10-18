@@ -1,7 +1,7 @@
 # NTUC_Capstone_MarketAnalysis
 Retail Customer Purchase Analytics
 
-# Electronics Retail Sales Dataset 📊
+# Customer Purchasing Dataset 📊
 
 <p align="center">
  <img width="266" height="205" alt="image_1e16842e_edited" src="https://github.com/user-attachments/assets/699034ae-2410-4f06-ae9d-66dd5003594f" />
@@ -9,11 +9,11 @@ Retail Customer Purchase Analytics
 
 <h1 align="center">Electronics Retail Sales Dataset</h1>
 
-This repository contains a transactional dataset capturing retail sales performance for consumer electronics products throughout the first half of **2026**. The data includes granular details on order parameters, product categories, geographic regions, salesperson mapping, and promotional discounts.
+Understanding customer purchasing behaviour is very important for a company to continue success. As such, using customer data to make effective decisions on marketing, customer retention, inventory management, and sales growth. Therefore, this analysis aims to identify customer buying patterns, customer segments, product performance, and sales trends to help the company improve business performance and increase revenue. The data includes granular details on order parameters, product categories, geographic regions, and promotional discounts.
 
 It serves as an excellent resource for exploratory data analysis (EDA), sales performance forecasting, regional market analysis, and missing data imputation practice.
 
-<img width="1317" height="742" alt="image" src="https://github.com/user-attachments/assets/fd2d0b2f-b7d0-4953-8c8b-868132c2485a" />
+
 
 ## 📋 Dataset Overview
 
