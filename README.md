@@ -1,4 +1,4 @@
-# NTUC_Capstone_MarketAnalysis
+# NTUC_Capstone_MarketAnalysis (prepared by Yep We Ping)
 Retail Customer Purchase Analytics
 
 # Customer Purchasing Dataset 📊
