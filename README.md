@@ -31,30 +31,30 @@ This study aims to identify purchasing patterns, customer segments, product perf
 
 ## 📋 Dataset Overview
 
-* **File Name:** `product_sales_practice.csv`
-* **Time Horizon:** January 2026 – June 2026
-* **Target Category:** Electronics
-* **Key Entities:** Products, Sales Team, Regional Markets, Revenue Metrics
+* **File Name:** `customer.csv`
+* **Target Category:** Customer Directory
+* **Key Entities:** Customer ID,First Name, Last Name, Gender, Age, Country, Income
 
-  Link to Jupyter Notebook in Google Colab:
+  Link to Google Colab:
   https://colab.research.google.com/drive/10dyunFAxkvDDQb2xrd1I1uPhSzSBA0ZA?usp=sharing
    
 ## 🗂️ Data Dictionary
 
-The dataset consists of the following 10 features:
+The dataset consists of the following 11 features:
 
 | Column Name | Data Type | Description | Example Value |
 | :--- | :--- | :--- | :--- |
-| **Order_ID** | String | A unique alphanumeric identifier for each transaction. | `ORD078` |
-| **Date** | Date | The transaction date formatted as `YYYY-MM-DD`. | `2026-04-09` |
-| **Product** | String | The name of the electronic item sold. | `Laptop`, `Mouse`, `Webcam` |
-| **Category** | String | The high-level category classification. | `Electronics` |
-| **Region** | String | The geographic sales territory. | `North`, `East`, `West`, `South` |
-| **Salesperson** | String | The name of the account representative. | `Alice`, `Bob`, `Charlie`, `Diana`, `Ethan` |
-| **Quantity** | Integer | The total units purchased in the order. | `7.0` |
-| **Unit_Price** | Float | The retail price per single unit of the product. | `997.67` |
-| **Discount** | Float | The promotional deduction percentage applied (0.0 to 0.15). | `0.15` (equivalent to 15%) |
-| **Sales** | Float | The final calculated gross revenue earned from the order. | `6983.69` |
+| **Order_ID** | String | A unique alphanumeric identifier for each transaction. | `ODSHP00001` |
+| **Customer_ID** | String | A unique alphanumeric identifier for each customer. | `CS00001` |
+| **Order_Date** | Date | The transaction date formatted as `YYYY-MM-DD`. | `2022-05-26` |
+| **Product_name** | String | The name of the products sold. | `Furniture` |
+| **Description** | String | Description on the product. | `Transform your space with this stylish and functional furniture.` |
+| **Price** | Float | The retail price of the product. | `645.52` |
+| **Discount** | Float | The deduction on price of the product. | `0.37` |
+| **Tax** | Float | The goods and services tax. | `0.02` |
+| **Quantity** | int | The unit sold of the product. | `9` |
+| **Shipping_cost** | Float | The direct shipment cost for the transaction. | `8.91` |
+| **Shipping_date** | Date | The delivery date formatted as `YYYY-MM-DD`. | `2022-05-29` |
 
 ## 🔍 Data Quality & Cleaning Notes
 
