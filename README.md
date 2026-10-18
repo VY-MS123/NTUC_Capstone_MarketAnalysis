@@ -4,15 +4,26 @@ Retail Customer Purchase Analytics
 # Product Sales Dataset 📊
 
 <p align="center">
- <img width="266" height="205" alt="Factors-affecting-Sales-of-a-Product-3-1024x767" src="https://inlabel.pt/wp-content/uploads/2022/08/Factors-affecting-Sales-of-a-Product-3-1024x767.jpep"
+<img width="280" height="150" alt="image" src="https://github.com/user-attachments/assets/ac0a3d4a-d14b-4831-af0f-bdbd3a97baa0" />
 
-<h1 align="center">Electronics Retail Sales Dataset</h1>
+<h1 align="center">Product Sales Analysis
 
+#
 Understanding customer purchasing behaviour is very important for a company to continue success. As such, using customer data to make effective decisions on marketing, customer retention, inventory management, and sales growth. Therefore, this analysis aims to identify customer buying patterns, customer segments, product performance, and sales trends to help the company improve business performance and increase revenue. The data includes granular details on order parameters, product categories, geographic regions, and promotional discounts.
 
 It serves as an excellent resource for exploratory data analysis (EDA), sales performance forecasting, regional market analysis, and missing data imputation practice.
 
-
+# Objective
+1	Regional Sales Performance & Geographic Market Analysis
+	>> Evaluate total revenue, transaction volume, and average order value across different geographic regions (Region) to identify high-performing markets and underperforming zones.
+2	Impact of Discount Strategies on Net Revenue and Volume
+	>> Investigate the relationship between Discount percentages and the resulting Quantity sold versus total net Sales to determine whether discounting successfully stimulates demand or negatively impacts revenue margins.
+3	Product Demand and Revenue Concentration Analysis
+	>> Identify which specific Product lines dominate total revenue generation and sales volume to pinpoint core revenue drivers versus low-performing inventory
+4	Salesperson Productivity and Performance Benchmarking
+	>> Assess individual sales representatives (Salesperson) based on total sales generated, transaction frequency, and average order size to establish performance benchmarks
+5	Temporal Sales Trends and Demand Seasonality
+	>> Examine periodic and monthly variations in sales transactions over time (Date) to detect peak purchasing windows and seasonal demand fluctuations.
 
 ## 📋 Dataset Overview
 
