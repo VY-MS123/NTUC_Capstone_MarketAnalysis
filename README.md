@@ -23,8 +23,8 @@ This study aims to identify purchasing patterns, customer segments, product perf
 3	Product Demand and Revenue Concentration Analysis
 	>> Identify which specific Product lines dominate total revenue generation and sales volume to pinpoint core revenue drivers versus low-performing inventory
 	
-4	Salesperson Productivity and Performance Benchmarking
-	>> Assess individual sales representatives (Salesperson) based on total sales generated, transaction frequency, and average order size to establish performance benchmarks
+4	Evaluate Customer Value and Profitability
+	>> Identify high-value, medium-value, and low value customers by analysing revenue contribution and customer lifetime value, helping the company focus retention efforts on profitable customers. 
 	
 5	Temporal Sales Trends and Demand Seasonality
 	>> Examine periodic and monthly variations in sales transactions over time (Date) to detect peak purchasing windows and seasonal demand fluctuations.
@@ -81,3 +81,4 @@ df['Date'] = pd.to_datetime(df['Date'])
 # Quick view of total sales revenue by product
 revenue_by_product = df.groupby('Product')['Sales'].sum().sort_values(ascending=False)
 print("Revenue by Product:\n", revenue_by_product)
+
