@@ -63,6 +63,29 @@ If you are using this dataset for data cleaning projects, please note that it in
   This relationship can be exploited to programmatically restore missing metrics.
 * **Empty Rows:** The raw structure contains blank structural divider rows (`,,,,,,,,,`) that should be filtered out during preprocessing.
 
+## Key Findings
+Objective 1:
+Sales volume does not represent high revenue
+Some product categories, including Sports Shoes, Activewear Sets, Jackets and T-Shirts, recorded relatively strong sales volumes but remained among the lower revenue contributors. This indicates that high transaction volume alone does not guarantee strong revenue performance. Product pricing, discounts and product mix may contribute to this difference.
+
+The analysis shows differences in performance across product categories. Certain categories contribute more strongly to revenue, while others generate comparatively lower revenue despite higher customer demand. This highlights the importance of assessing both sales quantity and revenue contribution when evaluating product performance.
+
+Objective 2:
+In normal promotion circumstances, discount can encourage purchases, but higher discounts do not necessarily mean better financial performance. The finding suggest that discounts have a limited impact on increasing customer demand. Therefore, discount effectiveness should be assessed together with sales volume, revenue and, where available, profitability to determine whether promotions are creating sufficient business value. 
+
+Objective 3:
+1. There is no customer concentration risk
+Customer spending appears to be relatively evenly distributed among the leading customers, with no clear indication of excessive reliance on a single customer. This suggests that revenue is supported by a broader customer base, reducing customer concentration risk.
+
+2. There is product concentration risk
+The analysis shows a high level of product concentration, with 10 key products contributing 69% of the company’s total revenue. To manage this concentration risk, management should regularly monitor sales trends, inventory levels and profitability of these products. Consistent product quality and high customer satisfaction should also be maintained to protect demand and sustain revenue contribution.
+
+Objective 4:
+Customer purchasing behaviour provides opportunities for segmentation
+Differences in customer spending patterns suggest opportunities to group customers according to their purchasing behaviour and value. Customer segmentation can help the business identify higher-value customers and develop more relevant marketing strategies rather than applying the same approach to all customers.
+
+Based on the analysis, the 20–30 age group is the strongest revenue contributor, generating approximately $17 million, while customers aged 30–60 continue to provide a stable revenue base. Revenue declines significantly among customers above 60. Importantly, each age group shows different demand for top products, highlighting an opportunity to tailor product offerings and marketing strategies to specific age segments.
+
 ## 🛠️ Usage Example (Python & Pandas)
 
 Get started analyzing this dataset quickly using Python:
@@ -81,16 +104,6 @@ for col in columns_to_convert:
 # Quick view of top 5 data info
 df.head()
 
-
-## Key Findings
-Objective 1:
-1. There is no customer concentration risk
-Customer spending appears to be relatively evenly distributed among the leading customers, with no clear indication of excessive reliance on a single customer. This suggests that revenue is supported by a broader customer base, reducing customer concentration risk.
-
-2. Sales volume does not represent high revenue
-Some product categories, including Sports Shoes, Activewear Sets, Jackets and T-Shirts, recorded relatively strong sales volumes but remained among the lower revenue contributors. This indicates that high transaction volume alone does not guarantee strong revenue performance. Product pricing, discounts and product mix may contribute to this difference.
-
-The analysis shows differences in performance across product categories. Certain categories contribute more strongly to revenue, while others generate comparatively lower revenue despite higher customer demand. This highlights the importance of assessing both sales quantity and revenue contribution when evaluating product performance.
 
 
 
