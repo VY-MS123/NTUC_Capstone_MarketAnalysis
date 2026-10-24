@@ -86,6 +86,12 @@ Differences in customer spending patterns suggest opportunities to group custome
 
 Based on the analysis, the 20–30 age group is the strongest revenue contributor, generating approximately $17 million, while customers aged 30–60 continue to provide a stable revenue base. Revenue declines significantly among customers above 60. Importantly, each age group shows different demand for top products, highlighting an opportunity to tailor product offerings and marketing strategies to specific age segments.
 
+Objective 5:
+Sales Trends and Demand Seasonality Analysis
+The sales performance seem to be stable but the sales demand chart showing October is the peak of the year. Although November and December sales decrease slightly as compared to October, they remain significantly higher than the first half of the year. This suggests stronger customer demand in the third and fourth quarters, likely driven by seasonal shopping patterns and year-end promotional activities.
+
+Based on this trend, the company should focus inventory planning and marketing campaigns during August to December, while leveraging weekend promotions to maximise sales opportunities.
+
 ## 🛠️ Usage Example (Python & Pandas)
 
 Get started analyzing this dataset quickly using Python:
