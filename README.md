@@ -74,9 +74,23 @@ import pandas as pd
 df = pd.read_csv('sales_data.csv').dropna(how='all')
 
 # Convert date column to datetime object
-df['Date'] = pd.to_datetime(df['Date'])
+columns_to_convert = ['order_date', 'shipping_date']
+for col in columns_to_convert:
+    df[col] = pd.to_datetime(df[col], format='%d-%m-%Y')
 
-# Quick view of total sales revenue by product
-revenue_by_product = df.groupby('Product')['Sales'].sum().sort_values(ascending=False)
-print("Revenue by Product:\n", revenue_by_product)
+# Quick view of top 5 data info
+df.head()
+
+
+## Key Findings
+Objective 1:
+1. There is no customer concentration risk
+Customer spending appears to be relatively evenly distributed among the leading customers, with no clear indication of excessive reliance on a single customer. This suggests that revenue is supported by a broader customer base, reducing customer concentration risk.
+
+2. Sales volume does not represent high revenue
+Some product categories, including Sports Shoes, Activewear Sets, Jackets and T-Shirts, recorded relatively strong sales volumes but remained among the lower revenue contributors. This indicates that high transaction volume alone does not guarantee strong revenue performance. Product pricing, discounts and product mix may contribute to this difference.
+
+The analysis shows differences in performance across product categories. Certain categories contribute more strongly to revenue, while others generate comparatively lower revenue despite higher customer demand. This highlights the importance of assessing both sales quantity and revenue contribution when evaluating product performance.
+
+
 
