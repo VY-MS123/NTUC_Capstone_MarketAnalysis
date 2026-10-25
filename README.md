@@ -27,7 +27,9 @@ Understanding customer purchasing behaviour is essential for sustainable growth.
 
 ## Power BI Dashboard
 
-<img width="1419" height="790" alt="image" src="https://github.com/user-attachments/assets/a32f26df-5002-43dc-9a84-57e5a0099a90" />
+<p align="center">
+<img width="1414" height="776" alt="image" src="https://github.com/user-attachments/assets/ade21187-5422-43f3-a1ae-53d6ba2d6521" />
+
 
 ## 📋 Dataset Overview
 
