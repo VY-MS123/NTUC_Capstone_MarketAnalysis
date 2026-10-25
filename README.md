@@ -4,9 +4,7 @@ Retail Customer Purchase Analytics
 # Product Sales Dataset 📊
 
 <p align="center">
-<img width="280" height="150" alt="image" src="https://github.com/user-attachments/assets/ac0a3d4a-d14b-4831-af0f-bdbd3a97baa0" />
-
-<h1 align="center">Product Sales Analysis
+<img width="896" height="373" alt="image" src="https://github.com/user-attachments/assets/aea94c68-9d7e-48b4-af7a-e12957d9d1d0" />
 
 #
 Understanding customer purchasing behaviour is essential for sustainable growth. This project analyses customer and transaction data to identify purchasing patterns, customer segments, product performance and sales trends that support revenue growth and better marketing, retention and inventory decisions.
@@ -27,12 +25,17 @@ Understanding customer purchasing behaviour is essential for sustainable growth.
 5	Temporal Sales Trends and Demand Seasonality
 	>> Examine periodic and monthly variations in sales transactions over time (Date) to detect peak purchasing windows and seasonal demand fluctuations.
 
+## Power BI Dashboard
+
+<img width="1419" height="790" alt="image" src="https://github.com/user-attachments/assets/a32f26df-5002-43dc-9a84-57e5a0099a90" />
+
 ## 📋 Dataset Overview
 
 * **File Name:** `customer.csv`
 * **Target Category:** Customer Directory
 * **Key Entities:** Customer ID,First Name, Last Name, Gender, Age, Country, Income
 
+  <p align="center">
   Link to Google Colab:
   https://colab.research.google.com/drive/10dyunFAxkvDDQb2xrd1I1uPhSzSBA0ZA?usp=sharing
    
